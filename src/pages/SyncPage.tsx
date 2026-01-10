@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { FolderSync, Loader2 } from 'lucide-react';
-import type { Project, GalleryItem, ProjectFile, FileType } from '../types';
+import type { Project, GalleryItem, FileType } from '../types';
 import { safeStorage } from '../utils';
 
 interface SyncPageProps {

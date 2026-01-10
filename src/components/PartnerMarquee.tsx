@@ -1,4 +1,3 @@
-import React from 'react';
 import { Printer, Box, Cpu, Layers, Zap, Droplets, Wrench } from 'lucide-react';
 
 const PartnerMarquee = () => {

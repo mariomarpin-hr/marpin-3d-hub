@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mail, Youtube, Printer, ExternalLink } from 'lucide-react';
 
 const AboutPage = () => (
@@ -8,7 +7,7 @@ const AboutPage = () => (
             <div className="hidden xl:flex flex-col gap-6 mt-10 animate-fade-in" style={{animationDelay: '0.2s'}}>
                  <div className="bg-white p-4 rounded-[2.5rem] shadow-xl border border-slate-100 rotate-[-2deg] hover:rotate-0 transition-transform duration-500 group cursor-pointer">
                      <div className="aspect-[3/4] bg-slate-100 rounded-[2rem] overflow-hidden relative mb-4">
-                         <img src="./bambulab.jpg" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Printer 1" />
+                         <img src="https://picsum.photos/400/600" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Printer 1" />
                          <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-slate-800 shadow-sm">High Detail</div>
                      </div>
                      <h3 className="text-2xl font-black text-slate-900 text-center">Bambu Lab P2S Combo</h3>
@@ -18,18 +17,17 @@ const AboutPage = () => (
 
             <div className="bg-white rounded-[4rem] p-12 md:p-20 shadow-2xl border border-slate-100 text-center relative z-10">
                 {/* Increased profile image size to w-80 h-80 */}
-                <div className="w-80 h-80 bg-slate-100 rounded-full mx-auto mb-10 overflow-hidden border-8 border-white shadow-xl relative">
-                    <img src="./ja.jpg" className="w-full h-full object-cover" alt="Author" /></div>
+                <div className="w-80 h-80 bg-slate-100 rounded-full mx-auto mb-10 overflow-hidden border-8 border-white shadow-xl relative"><img src="https://picsum.photos/300/300" className="w-full h-full object-cover" alt="Author" /></div>
                 <h1 className="text-5xl font-black text-slate-900 mb-6">O Autoru</h1>
                 <p className="text-xl text-slate-600 leading-relaxed font-medium mb-12">Bok! Ja sam zaljubljenik u 3D printanje i dizajn. Ovu stranicu koristim kako bih podijelio svoje radove sa svijetom. Slobodno preuzmi bilo koji model, STL ili sliku za svoje potrebe.</p>
                 
                 <div className="grid md:grid-cols-2 gap-6 text-left">
-                    <a href="mailto:mario.marpin@gmail.com" className="flex items-center gap-6 p-6 bg-slate-50 rounded-3xl hover:bg-slate-900 hover:text-white transition-all group">
+                    <a href="mailto:moj@email.com" className="flex items-center gap-6 p-6 bg-slate-50 rounded-3xl hover:bg-slate-900 hover:text-white transition-all group">
                         <div className="p-4 bg-white rounded-2xl shadow-sm text-slate-900 group-hover:text-blue-600"><Mail size={24}/></div>
                         <div><p className="text-xs font-bold uppercase tracking-widest opacity-60">Kontaktiraj me</p><p className="font-bold text-lg">Email</p></div>
                     </a>
                     
-                    <a href="https://youtube.com/@mariomarpin5385" target="_blank" className="flex items-center gap-6 p-6 bg-red-50 rounded-3xl hover:bg-red-600 hover:text-white transition-all group">
+                    <a href="https://youtube.com/@tvojkanal" target="_blank" className="flex items-center gap-6 p-6 bg-red-50 rounded-3xl hover:bg-red-600 hover:text-white transition-all group">
                         <div className="p-4 bg-white rounded-2xl shadow-sm text-red-600 group-hover:text-red-600"><Youtube size={24}/></div>
                         <div><p className="text-xs font-bold uppercase tracking-widest opacity-60">Pretplati se</p><p className="font-bold text-lg">YouTube</p></div>
                     </a>
@@ -44,7 +42,7 @@ const AboutPage = () => (
             <div className="hidden xl:flex flex-col gap-6 mt-10 animate-fade-in" style={{animationDelay: '0.4s'}}>
                  <div className="bg-white p-4 rounded-[2.5rem] shadow-xl border border-slate-100 rotate-[2deg] hover:rotate-0 transition-transform duration-500 group cursor-pointer">
                      <div className="aspect-[3/4] bg-slate-100 rounded-[2rem] overflow-hidden relative mb-4">
-                         <img src="./elegoo.jpg" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Printer 2" />
+                         <img src="https://picsum.photos/400/601" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" alt="Printer 2" />
                          <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-slate-800 shadow-sm">FDM Workhorse</div>
                      </div>
                      <h3 className="text-2xl font-black text-slate-900 text-center">Elegoo Neptune 4 PRO</h3>

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Settings, Box, Layers } from 'lucide-react';
 
 export const AnimatedBackground = () => (
