@@ -1,0 +1,7 @@
+Materijal: Elegoo PLA+ crna
+Postavke: 0.2mm layer, 100% infill
+Komentar: treba printati sa supportom ( potporom).
+	
+	- ja sam printao sa tom bojama, do vas je koju cete boju koristiti odaberite 	               	sami po zelji
+
+	- ako imate koje pitanje, a da vam nije jasno pitajte tu sam za Vas

@@ -1,0 +1,7 @@
+Materijal: ELEGOO PETG PRO crna
+Postavke: 0.2mm layer, 100% infill
+Komentar: Potpore Vam netrebaju
+	
+	- ja sam printao sa crnom, a do vas je koju cete boju koristiti odaberite sami do 	vaseg ukusa je
+
+	- ako imate koje pitanje, a da vam nije jasno pitajte tu sam za Vas

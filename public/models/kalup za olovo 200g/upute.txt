@@ -1,0 +1,7 @@
+Materijal: PLA crna
+Postavke: 0.2mm layer, 25% infill
+Komentar:  support(potpora ) netreba Vam
+	
+	- ja sam printao sa crnom, a do vas je koju cete boju koristiti odaberite sami    	jer je to kalup za kalup
+
+	- ako imate koje pitanje, a da vam nije jasno pitajte tu sam za Vas

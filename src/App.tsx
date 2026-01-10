@@ -14,21 +14,6 @@ import SyncPage from './pages/SyncPage';
 // Ovi podaci se učitavaju iz mape 'public'
 const PUBLIC_PORTFOLIO: Project[] = [
     {
-        id: 'demo-1',
-        title: 'Moj Prvi Model',
-        category: 'Prototipovi',
-        description: 'Primjer modela dostupnog na webu. Datoteke se nalaze u public mapi.',
-        // Putanja počinje s / što označava public mapu
-        thumbnail: '/images/projekt1_thumb.jpg', 
-        instructions: 'Printati s 20% infilla, PLA plastika.',
-        downloads: 120,
-        likes: 45,
-        files: [
-            { name: 'model.stl', url: '/models/model1.stl', type: 'stl' },
-            { name: 'slika.jpg', url: '/images/projekt1_thumb.jpg', type: 'image' }
-        ]
-    },
-    {
         id: 'granicnik_za_svrdlo',
         title: 'Granicnik za svrdlo',
         category: 'Alati',
@@ -44,7 +29,219 @@ const PUBLIC_PORTFOLIO: Project[] = [
 
             { name: 'upute.txt', url: '/models/granicnik za svrdlo/upute.txt', type: 'other' },
         ]
-    }
+    },
+    {
+    id: 'za_ravnjanje_pločica', // Jedinstveni ID (npr. ime modela bez razmaka)
+    title: 'za ravnjanje pločica', // Ime koje vide korisnici
+    category: 'Alati', // Kategorija za filtriranje
+    description: 'Služi za poravnavanje pločica prilikom posavljanja.',
+    // VAŽNO: Putanja mora početi s '/' i odgovarati putanji u 'public' folderu
+    thumbnail: '/models/za ravnjanje pločica/za ravnanje pločica.png', 
+    downloads: 0,
+    likes: 0,
+    instructions: '/models/za ravnjanje pločica/upute.txt', 
+    files: [
+      { name: 'kajla.stl', url: '/models/za ravnjanje pločica/kajla.stl', type: 'stl' },
+      { name: 'matica.stl', url: '/models/za ravnjanje pločica/matica.stl', type: 'stl' },
+      { name: 'šaraf - baza.stl', url: '/models/za ravnjanje pločica/šaraf - baza.stl', type: 'stl' },
+      { name: 'upute.txt', url: '/models/za ravnjanje pločica/upute.txt', type: 'other' },
+      { name: 'za ravnanje pločica.jpg', url: '/models/za ravnjanje pločica/za ravnanje pločica.jpg', type: 'image' }
+    ]
+  },
+  {
+    id: 'zupcanik',
+    title: 'zupcanik',
+    category: 'Alati',
+    description: '?',
+    thumbnail: '/models/zupcanik/zupčanik.png',
+    downloads: 0,
+    likes: 0,
+    instructions: '/models/zupcanik/upute.txt',
+    files: [
+      { name: 'zupčanik.stl', url: '/models/zupcanik/zupčanik .stl', type: 'stl' },
+      { name: 'upute.txt', url: '/models/zupcanik/upute.txt', type: 'other' }
+    ]
+  },
+  {
+    id: 'držac_za_svijetlo', // Jedinstveni ID (npr. ime modela bez razmaka)
+    title: 'Držac za svijetlo', // Ime koje vide korisnici
+    category: 'Hobi', // Kategorija za filtriranje
+    description: 'Postavlja se na kraj ribolovnog štapa da drži svijetleci element.',
+    // VAŽNO: Putanja mora početi s '/' i odgovarati putanji u 'public' folderu
+    thumbnail: '/models/držac za svijetlo/držac za svijetlo.jpg', 
+    downloads: 0,
+    likes: 0,
+    instructions: '/models/držac za svijetlo/upute.txt',// Sustav će automatski potražiti 'upute.txt' u files listi ispod
+    files: [
+      { name: 'držac za svijetlo.stl', url: '/models/držac za svijetlo/držac za svijetlo.stl', type: 'stl' },
+      { name: 'držac za svijetlo drugi dio.stl', url: '/models/držac za svijetlo/držac za svijetlo drugi dio.stl', type: 'stl' },
+      { name: 'upute.txt', url: '/models/držac za svijetlo/upute.txt', type: 'other' },
+       // DODAJ SLIKE OVDJE s tipom 'image' da se pojave ispod preglednika:
+      { name: 'držac za svijetlo.jpg', url: '/models/držac za svijetlo/držac za svijetlo.jpg', type: 'image' }
+    ]
+  },
+  {
+    id: 'kalup_za_olovo_200g', // Jedinstveni ID (npr. ime modela bez razmaka)
+    title: 'Kalup za olovo 200g', // Ime koje vide korisnici
+    category: 'Hobi', // Kategorija za filtriranje
+    description: 'Pozitiv i negativ kalupa za izradu od gipla.',
+    // VAŽNO: Putanja mora početi s '/' i odgovarati putanji u 'public' folderu
+    thumbnail: '/models/kalup za olovo 200g/kalup za olovo 200g.jpg', 
+    downloads: 0,
+    likes: 0,
+    instructions: '/models/kalup za olovo 200g/upute.txt',// Sustav će automatski potražiti 'upute.txt' u files listi ispod
+    files: [
+      { name: 'D kalup 2.stl', url: '/models/kalup za olovo 200g/D kalup 2.stl', type: 'stl' },
+      { name: 'D kalup 2-1.stl', url: '/models/kalup za olovo 200g/D kalup 2-1.stl', type: 'stl' },
+      { name: 'D kalup 2-2.stl', url: '/models/kalup za olovo 200g/D kalup 2-2.stl', type: 'stl' },
+      { name: 'D kalup 2-3.stl', url: '/models/kalup za olovo 200g/D kalup 2-3.stl', type: 'stl' },
+      { name: 'D kalup 2-4.stl', url: '/models/kalup za olovo 200g/D kalup 2-4.stl', type: 'stl' },
+      { name: 'doljnji kalup.stl', url: '/models/kalup za olovo 200g/doljnji kalup.stl', type: 'stl' },
+      { name: 'G kalup 2.stl', url: '/models/kalup za olovo 200g/G kalup 2.stl', type: 'stl' },
+      { name: 'gornji kalup.stl', url: '/models/kalup za olovo 200g/gornji kalup.stl', type: 'stl' },
+      { name: 'kajla m.stl', url: '/models/kalup za olovo 200g/kajla m.stl', type: 'stl' },
+      { name: 'kajla v.stl', url: '/models/kalup za olovo 200g/kajla v.stl', type: 'stl' },
+      { name: 'upute.txt', url: '/models/kalup za olovo 200g/upute.txt', type: 'other' },
+       // DODAJ SLIKE OVDJE s tipom 'image' da se pojave ispod preglednika:
+      { name: 'kalup za olovo 200g.jpg', url: '/models/kalup za olovo 200g/kalup za olovo 200g.jpg', type: 'image' }
+    ]
+  },
+  {
+    id: 'kutija za udice', // Jedinstveni ID (npr. ime modela bez razmaka)
+    title: 'Kutija za udice', // Ime koje vide korisnici
+    category: 'Hobi', // Kategorija za filtriranje
+    description: 'Kutijica sa dvije strane za predveze udica.',
+    // VAŽNO: Putanja mora početi s '/' i odgovarati putanji u 'public' folderu
+    thumbnail: '/models/kutija za udice/kutija za udice.jpg', 
+    downloads: 0,
+    likes: 0,
+    instructions: '/models/kutija za udice/upute.txt',// Sustav će automatski potražiti 'upute.txt' u files listi ispod
+    files: [
+      { name: 'donji dio.stl', url: '/models/kutija za udice/donji dio.stl', type: 'stl' },
+      { name: 'gornji dio.stl', url: '/models/kutija za udice/gornji dio.stl', type: 'stl' },
+      { name: 'klin.stl', url: '/models/kutija za udice/klin.stl', type: 'stl' },
+      { name: 'upute.txt', url: '/models/kutija za udice/upute.txt', type: 'other' },
+       // DODAJ SLIKE OVDJE s tipom 'image' da se pojave ispod preglednika:
+      { name: 'kutija za udice.jpg', url: '/models/kutija za udice/kutija za udice.jpg', type: 'image' }
+    ]
+  },{
+    id: 'posuda_za_loviti_kukce', // Jedinstveni ID (npr. ime modela bez razmaka)
+    title: 'Posuda za loviti kukce', // Ime koje vide korisnici
+    category: 'Hobi', // Kategorija za filtriranje
+    description: 'Posuda u obliku čaše sa dva ulaza sastrane za loviti kukce.',
+    // VAŽNO: Putanja mora početi s '/' i odgovarati putanji u 'public' folderu
+    thumbnail: '/models/posuda za loviti kukce/posuda za loviti kukce.jpg', 
+    downloads: 0,
+    likes: 0,
+    instructions: '/models/posuda za loviti kukce/upute.txt',// Sustav će automatski potražiti 'upute.txt' u files listi ispod
+    files: [
+      { name: 'poklopac.stl', url: '/models/posuda za loviti kukce/poklopac.stl', type: 'stl' },
+      { name: 'posuda.stl', url: '/models/posuda za loviti kukce/posuda.stl', type: 'stl' },
+      { name: 'ulaz za posudu.stl', url: '/models/posuda za loviti kukce/ulaz za posudu.stl', type: 'stl' },
+      { name: 'upute.txt', url: '/models/posuda za loviti kukce/upute.txt', type: 'other' },
+       // DODAJ SLIKE OVDJE s tipom 'image' da se pojave ispod preglednika:
+      { name: 'posuda za loviti kukce.jpg', url: '/models/posuda za loviti kukce/posuda za loviti kukce.jpg', type: 'image' }
+    ]
+  },
+  {
+    id: 'dio_usisivača_za_usis',
+    title: 'Dio usisivača za usis',
+    category: 'Inovacije',
+    description: 'Za vodeni usisivač prednji dio',
+    thumbnail: '/models/dio usisivača za usis/dio usisivača za usis.png',
+    downloads: 0,
+    likes: 0,
+    instructions: '/models/dio usisivača za usis/upute.txt',
+    files: [
+      { name: 'dio usisivača za usis.stl', url: '/models/dio usisivača za usis/dio usisivača za usis.stl', type: 'stl' },
+      { name: 'upute.txt', url: '/models/dio usisivača za usis/upute.txt', type: 'other' },
+      { name: 'dio usisivača za usis.jpg', url: '/models/dio usisivača za usis/dio usisivača za usis.jpg', type: 'image' },
+      { name: 'original i naprintani usis.jpg', url: '/models/dio usisivača za usis/original i naprintani usis.jpg', type: 'image' }
+    ]
+  },
+  {
+    id: 'maskica_za_karticu',
+    title: 'Maskica za karticu',
+    category: 'Inovacije',
+    description: 'Zaštita za pokaznu particu',
+    thumbnail: '/models/maskica za karticu/maskica za karticu.png',
+    downloads: 0,
+    likes: 0,
+    instructions: '/models/maskica za karticu/upute.txt',
+    files: [
+      { name: 'maskica za karticu.stl', url: '/models/maskica za karticu/maskica za karticu.stl', type: 'stl' },
+      { name: 'upute.txt', url: '/models/maskica za karticu/upute.txt', type: 'other' },
+      { name: 'maskica za karticu.jpg', url: '/models/maskica za karticu/maskica za karticu.jpg', type: 'image' },
+      
+    ]
+  },
+  {
+    id: 'zaštita_za_bežično_zvono',
+    title: 'Zaštita za bežično zvono',
+    category: 'Inovacije',
+    description: 'Zaštita zvona od kiše',
+    thumbnail: '/models/zaštita za bežično zvono/zaštita za bežično zvono.png',
+    downloads: 0,
+    likes: 0,
+    instructions: '/models/zaštita za bežično zvono/upute.txt',
+    files: [
+      { name: 'zaštita za bežično zvono.stl', url: '/models/zaštita za bežično zvono/zaštita za bežično zvono.stl', type: 'stl' },
+      { name: 'upute.txt', url: '/models/zaštita za bežično zvono/upute.txt', type: 'other' },
+      { name: 'zaštita za bežično zvono.jpg', url: '/models/zaštita za bežično zvono/zaštita za bežično zvono.jpg', type: 'image' },
+      
+    ]
+  },
+  {
+    id: 'zaštitni_čep_za_maticu',
+    title: 'Zaštitni čep za maticu',
+    category: 'Inovacije',
+    description: 'Zaštita za maticu na kukurin',
+    thumbnail: '/models/zaštitni čep za maticu/zaštitni čep za maticu.png',
+    downloads: 0,
+    likes: 0,
+    instructions: '/models/zaštitni čep za maticu/upute.txt',
+    files: [
+      { name: 'zaštitni čep za maticu.stl', url: '/models/zaštitni čep za maticu/zaštitni čep za maticu.stl', type: 'stl' },
+      { name: 'upute.txt', url: '/models/zaštitni čep za maticu/upute.txt', type: 'other' },
+      { name: 'zaštitni čep za maticu.jpg', url: '/models/zaštitni čep za maticu/zaštitni čep za maticu.jpg', type: 'image' },
+      
+    ]
+  },
+  {
+    id: 'zglob_za_naglavne_slusalice_JBL',
+    title: 'Zglob za naglavne slusalice JBL',
+    category: 'Inovacije',
+    description: 'Zglob za naglavne slušalice JBL',
+    thumbnail: '/models/zglob za naglavne slusalice JBL/zglob za naglavne slusalice JBL.png',
+    downloads: 0,
+    likes: 0,
+    instructions: '/models/zglob za naglavne slusalice JBL/upute.txt',
+    files: [
+      { name: 'zglob za naglavne slusalice JBL.stl', url: '/models/zglob za naglavne slusalice JBL/zglob za naglavne slusalice JBL.stl', type: 'stl' },
+      { name: 'upute.txt', url: '/models/zglob za naglavne slusalice JBL/upute.txt', type: 'other' },
+      { name: 'zglob za naglavne slusalice JBL 2.jpg', url: '/models/zglob za naglavne slusalice JBL/zglob za naglavne slusalice JBL 2.jpg', type: 'image' },
+      { name: 'zglob za naglavne slusalice JBL 1.jpg', url: '/models/zglob za naglavne slusalice JBL/zglob za naglavne slusalice JBL 1.jpg', type: 'image' },
+      
+    ]
+  },
+  {
+    id: 'zglob_za_naglavne_slušalice_pioneer_dj',
+    title: 'Zglob za naglavne slušalice pioneer dj',
+    category: 'Inovacije',
+    description: 'Zglob za naglavne slušalice pioneer dj',
+    thumbnail: '/models/zglob za naglavne slušalice pioneer dj/desni zglob za naglavne slušalice pioneer dj.png',
+    downloads: 0,
+    likes: 0,
+    instructions: '/models/zglob za naglavne slušalice pioneer dj/upute.txt',
+    files: [
+      { name: 'desni zglob za naglavne slušalice pioneer dj.stl', url: '/models/zglob za naglavne slušalice pioneer dj/desni zglob za naglavne slušalice pioneer dj.stl', type: 'stl' },
+      { name: 'ljevi zglob za naglavne slušalice pioneer dj.stl', url: '/models/zglob za naglavne slušalice pioneer dj/ljevi zglob za naglavne slušalice pioneer dj.stl', type: 'stl' },
+      { name: 'upute.txt', url: '/models/zglob za naglavne slušalice pioneer dj/upute.txt', type: 'other' },
+      { name: 'desni zglob za naglavne slušalice pioneer dj.jpg', url: '/models/zglob za naglavne slušalice pioneer dj/desni zglob za naglavne slušalice pioneer dj.jpg', type: 'image' },
+      { name: 'ljevi zglob za naglavne slušalice pioneer dj.jpg', url: '/models/zglob za naglavne slušalice pioneer dj/ljevi zglob za naglavne slušalice pioneer dj.jpg', type: 'image' },
+      
+    ]
+  },
     // OVDJE DODAJ SVOJE OSTALE PROJEKTE KOPIRANJEM BLOKA IZNAD
 ];
 

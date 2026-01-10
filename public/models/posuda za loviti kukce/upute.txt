@@ -1,0 +1,13 @@
+Materijal: Elegoo Rapid PLA+ green
+	   Elegoo Rapid PLA+ yellow
+Postavke: 0.2mm layer, 100% infill
+Komentar: Netreba vam supporta (potpora). 
+	  
+	  - poklopac, ulaz za posudu - Elegoo Rapid PLA+ green
+
+	  - posuda - Elegoo Rapid PLA+ green
+	
+	  - ja sam printao sa tim bojama, do vas je koju cete boju koristiti odaberite 	               	sami po zelji
+
+	- ako imate koje pitanje, a da vam nije jasno pitajte tu sam za Vas
+

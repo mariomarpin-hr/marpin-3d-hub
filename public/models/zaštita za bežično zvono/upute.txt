@@ -1,0 +1,7 @@
+Materijal: ELEGOO PETG PRO
+Postavke: 0.2mm layer, 100% infill
+Komentar: Odlično se printa bez supporta.
+	
+	- ja sam printao sa tom bojama, do vas je koju cete boju koristiti odaberite 	               	sami po želji
+
+	- ako imate koje pitanje, a da vam nije jasno pitajte tu sam za Vas
