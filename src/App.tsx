@@ -130,7 +130,7 @@ const PUBLIC_PORTFOLIO: Project[] = [
     category: 'Hobi', // Kategorija za filtriranje
     description: 'Posuda u obliku čaše sa dva ulaza sastrane za loviti kukce.',
     // VAŽNO: Putanja mora početi s '/' i odgovarati putanji u 'public' folderu
-    thumbnail: '/models/posuda za loviti kukce/posuda za loviti kukce.jpg', 
+    thumbnail: '/models/posuda za loviti kukce/posuda za loviti kukce.png', 
     downloads: 0,
     likes: 0,
     instructions: '/models/posuda za loviti kukce/upute.txt',// Sustav će automatski potražiti 'upute.txt' u files listi ispod
@@ -140,7 +140,8 @@ const PUBLIC_PORTFOLIO: Project[] = [
       { name: 'ulaz za posudu.stl', url: '/models/posuda za loviti kukce/ulaz za posudu.stl', type: 'stl' },
       { name: 'upute.txt', url: '/models/posuda za loviti kukce/upute.txt', type: 'other' },
        // DODAJ SLIKE OVDJE s tipom 'image' da se pojave ispod preglednika:
-      { name: 'posuda za loviti kukce.jpg', url: '/models/posuda za loviti kukce/posuda za loviti kukce.jpg', type: 'image' }
+      { name: 'posuda za loviti kukce.jpg', url: '/models/posuda za loviti kukce/posuda za loviti kukce.jpg', type: 'image' },
+      { name: 'posuda za loviti kukce.png', url: '/models/posuda za loviti kukce/posuda za loviti kukce.png', type: 'image' }
     ]
   },
   {
