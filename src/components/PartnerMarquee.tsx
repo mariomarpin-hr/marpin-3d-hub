@@ -7,9 +7,7 @@ const PartnerMarquee = () => {
         { name: "NEPTUNE 4 PRO", icon: <Cpu size={16} /> }, 
         { name: "P2S", icon: <Layers size={16} /> }, 
         { name: "COMBO", icon: <Box size={16} /> }, 
-        { name: "3DJOKE", icon: <Zap size={16} /> }, 
-        { name: "Polymaker", icon: <Droplets size={16} /> }, 
-        { name: "SolidWorks", icon: <Wrench size={16} /> }
+        { name: "3DJOKE", icon: <Zap size={16} /> }
     ];
 
     return (
