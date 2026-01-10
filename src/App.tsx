@@ -35,7 +35,7 @@ const PUBLIC_PORTFOLIO: Project[] = [
         description: 'Podesivi dio koji se stavlja na svrdlo za regulacije dubine.',
         // Putanja počinje s / što označava public mapu
         thumbnail: '/models/granicnik za svrdlo/granicnik za svrdlo.jpg', 
-        instructions: null,
+        instructions: '/models/granicnik za svrdlo/upute.txt',
         downloads: 0,
         likes: 0,
         files: [
