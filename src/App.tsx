@@ -221,6 +221,7 @@ const PUBLIC_PORTFOLIO: Project[] = [
       { name: 'upute.txt', url: '/models/zglob za naglavne slusalice JBL/upute.txt', type: 'other' },
       { name: 'zglob za naglavne slusalice JBL 2.jpg', url: '/models/zglob za naglavne slusalice JBL/zglob za naglavne slusalice JBL 2.jpg', type: 'image' },
       { name: 'zglob za naglavne slusalice JBL 1.jpg', url: '/models/zglob za naglavne slusalice JBL/zglob za naglavne slusalice JBL 1.jpg', type: 'image' },
+      { name: 'zglob za naglavne slusalice JBL.jpg', url: '/models/zglob za naglavne slusalice JBL/zglob za naglavne slusalice JBL.jpg', type: 'image' },
       
     ]
   },
