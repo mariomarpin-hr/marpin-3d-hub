@@ -27,6 +27,23 @@ const PUBLIC_PORTFOLIO: Project[] = [
             { name: 'model.stl', url: '/models/model1.stl', type: 'stl' },
             { name: 'slika.jpg', url: '/images/projekt1_thumb.jpg', type: 'image' }
         ]
+    },
+    {
+        id: 'granicnik_za_svrdlo',
+        title: 'Granicnik za svrdlo',
+        category: 'Alati',
+        description: 'Podesivi dio koji se stavlja na svrdlo za regulacije dubine.',
+        // Putanja počinje s / što označava public mapu
+        thumbnail: '/models/granicnik za svrdlo/granicnik za svrdlo.jpg', 
+        instructions: null,
+        downloads: 0,
+        likes: 0,
+        files: [
+            { name: 'granicnik za svrdlo.stl.stl', url: '/models/granicnik za svrdlo/granicnik za svrdlo.stl', type: 'stl' },
+            { name: 'granicnik za svrdlo.jpg', url: '/models/granicnik za svrdlo/granicnik za svrdlo.jpg', type: 'image' },
+
+            { name: 'upute.txt', url: '/models/granicnik za svrdlo/upute.txt', type: 'other' },
+        ]
     }
     // OVDJE DODAJ SVOJE OSTALE PROJEKTE KOPIRANJEM BLOKA IZNAD
 ];
@@ -119,7 +136,7 @@ const App = () => {
                 </div>
             </nav>
             <main className="flex-grow">{renderContent()}</main>
-            <footer className="py-12 text-center text-slate-400 text-sm font-medium border-t border-slate-200 mt-20"><p>© 2024 3D MARPIN. Svi modeli su vlasništvo autora.</p></footer>
+            <footer className="py-12 text-center text-slate-400 text-sm font-medium border-t border-slate-200 mt-20"><p>© 2026 3D MARPIN. Svi modeli su vlasništvo autora.</p></footer>
         </div>
     );
 };
