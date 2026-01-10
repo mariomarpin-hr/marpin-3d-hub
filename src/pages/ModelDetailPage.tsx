@@ -28,7 +28,9 @@ const ModelDetail: React.FC<ModelDetailProps> = ({ project, onBack, onDownload }
     const [newCommentName, setNewCommentName] = useState(''); 
     const [newCommentText, setNewCommentText] = useState(''); 
     const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
+    const [instructionText, setInstructionText] = useState<string | null>(null);
 
+    // Učitavanje komentara
     useEffect(() => { 
         const saved = safeStorage.getItem(`comments_${project.id}`); 
         if (saved) { 
@@ -37,6 +39,24 @@ const ModelDetail: React.FC<ModelDetailProps> = ({ project, onBack, onDownload }
             setComments([]); 
         } 
     }, [project.id]);
+
+    // Učitavanje teksta uputa (ako je .txt datoteka)
+    useEffect(() => {
+        if (project.instructions && project.instructions.endsWith('.txt')) {
+            fetch(project.instructions)
+                .then(res => {
+                    if (!res.ok) throw new Error("File not found");
+                    return res.text();
+                })
+                .then(text => setInstructionText(text))
+                .catch(err => {
+                    console.error("Failed to load instructions:", err);
+                    setInstructionText("Nije moguće učitati upute. Provjerite putanju datoteke.");
+                });
+        } else {
+            setInstructionText(project.instructions);
+        }
+    }, [project.instructions]);
 
     const updateComments = (newComments: Comment[]) => { 
         setComments(newComments); 
@@ -114,13 +134,13 @@ const ModelDetail: React.FC<ModelDetailProps> = ({ project, onBack, onDownload }
                             </div>
                         )}
 
-                        {project.instructions && (
+                        {instructionText && (
                             <div className="bg-white/80 backdrop-blur rounded-2xl border border-slate-200 p-6 shadow-sm relative overflow-hidden group hover:shadow-md transition-all">
                                 <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-blue-500 to-indigo-600"></div>
                                 <div className="absolute -right-4 -top-4 w-20 h-20 bg-blue-50 rounded-full opacity-50 group-hover:scale-150 transition-transform duration-500"></div>
                                 <h3 className="flex items-center gap-2 font-black text-slate-800 mb-4 uppercase tracking-widest text-xs relative z-10"><FileText size={16} className="text-blue-600"/> Upute & Postavke</h3>
                                 <div className="font-mono text-xs md:text-sm text-slate-600 whitespace-pre-wrap leading-relaxed bg-slate-50 p-4 rounded-xl border border-slate-100 relative z-10 selection:bg-blue-100 selection:text-blue-900">
-                                    {project.instructions}
+                                    {instructionText}
                                 </div>
                             </div>
                         )}
