@@ -318,7 +318,7 @@ const PUBLIC_GALLERY: GalleryItem[] = [
         type: 'image' 
     },
     { 
-        url: '/images/kostru_riba.jpg',  // Mora biti u public/images mapi
+        url: '/images/kostur_riba.jpg',  // Mora biti u public/images mapi
         title: 'Kostur_riba', 
         category: 'Galerija', 
         type: 'image' 
