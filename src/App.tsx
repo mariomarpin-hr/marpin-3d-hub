@@ -263,6 +263,210 @@ const PUBLIC_GALLERY: GalleryItem[] = [
         category: 'Galerija', 
         type: 'image' 
     },
+    { 
+        url: '/images/borici.jpg',  // Mora biti u public/images mapi
+        title: 'Borici', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/bozicni_ukrasi.jpg',  // Mora biti u public/images mapi
+        title: 'Bozicni ukrasi', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/ceka.jpg',  // Mora biti u public/images mapi
+        title: 'Ceka', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/ceka1.jpg',  // Mora biti u public/images mapi
+        title: 'Ceka1', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/deda_mraz.jpg',  // Mora biti u public/images mapi
+        title: 'Deda_mraz', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/Fishstick_Fortnite.jpg',  // Mora biti u public/images mapi
+        title: 'Fishstick_Fortnite', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/Fishstick_Fortnite1.jpg',  // Mora biti u public/images mapi
+        title: 'Fishstick_Fortnite1', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/iron_man.jpg',  // Mora biti u public/images mapi
+        title: 'Iron_man', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/iron_man1.jpg',  // Mora biti u public/images mapi
+        title: 'Iron_man1', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/kostru_riba.jpg',  // Mora biti u public/images mapi
+        title: 'Kostur_riba', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/kuglica.jpg',  // Mora biti u public/images mapi
+        title: 'Kuglica', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/kuglica1.jpg',  // Mora biti u public/images mapi
+        title: 'Kuglica1', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/mali_andel.jpg',  // Mora biti u public/images mapi
+        title: 'Mali_andel', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/natpis_erja.jpg',  // Mora biti u public/images mapi
+        title: 'Natpis_erja', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/olaf.jpg',  // Mora biti u public/images mapi
+        title: 'Olaf', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/pahuljica.jpg',  // Mora biti u public/images mapi
+        title: 'Pahuljica', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/paleta.jpg',  // Mora biti u public/images mapi
+        title: 'Paleta', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/paleta1.jpg',  // Mora biti u public/images mapi
+        title: 'Paleta1', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/pas.jpg',  // Mora biti u public/images mapi
+        title: 'Pas', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/saonice_i_jeleni.jpg',  // Mora biti u public/images mapi
+        title: 'Saonice_i_jeleni', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/snjegovic.jpg',  // Mora biti u public/images mapi
+        title: 'Snjegovic', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/sretno_krstenje.jpg',  // Mora biti u public/images mapi
+        title: 'Sretno_krstenje', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/sretno_krstenje1.jpg',  // Mora biti u public/images mapi
+        title: 'Sretno_krstenje1', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/tikva.jpg',  // Mora biti u public/images mapi
+        title: 'Tikva', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/tikva1.jpg',  // Mora biti u public/images mapi
+        title: 'Tikva1', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/uskrsnji_zec.jpg',  // Mora biti u public/images mapi
+        title: 'Uskrsnji_zec', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/vjeverica.jpg',  // Mora biti u public/images mapi
+        title: 'Vjeverica', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/vuk.jpg',  // Mora biti u public/images mapi
+        title: 'Vuk', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/welcome.jpg',  // Mora biti u public/images mapi
+        title: 'Welcome', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/zaba.jpg',  // Mora biti u public/images mapi
+        title: 'Zaba', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/zena_duh.jpg',  // Mora biti u public/images mapi
+        title: 'Zena_duh', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/zmaj.jpg',  // Mora biti u public/images mapi
+        title: 'Zmaj', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/zvoncic.jpg',  // Mora biti u public/images mapi
+        title: 'Zvoncic', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+    { 
+        url: '/images/zvoncic1.jpg',  // Mora biti u public/images mapi
+        title: 'Zvoncic1', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
 
     // --- NOVI VIDEO ---
     { 
