@@ -470,8 +470,8 @@ const PUBLIC_GALLERY: GalleryItem[] = [
 
     // --- NOVI VIDEO ---
     { 
-        url: '/video/timelapse.mp4',         // Mora biti u public/video mapi
-        title: 'Timelapse Printanja', 
+        url: '/video/Ofenbach - Overdrive feat. Norma Jean Martine (Official Music Video).mp4',         // Mora biti u public/video mapi
+        title: 'Ofenbach - Overdrive feat. Norma Jean Martine (Official Music Video)', 
         category: 'Video', 
         type: 'video' 
     }
