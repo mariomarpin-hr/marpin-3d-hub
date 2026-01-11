@@ -248,7 +248,24 @@ const PUBLIC_PORTFOLIO: Project[] = [
 ];
 
 const PUBLIC_GALLERY: GalleryItem[] = [
-    { url: '/images/projekt1_thumb.jpg', title: 'Radiona', category: 'Galerija', type: 'image' }
+    { url: '/images/projekt1_thumb.jpg', title: 'Radiona', category: 'Galerija', type: 'image' },
+
+    // --- NOVA SLIKA ---
+    { 
+        url: '/images/snjegovic1.jpg',  // Mora biti u public/images mapi
+        title: 'Snjegovic1', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
+
+    // --- NOVI VIDEO ---
+    { 
+        url: '/video/timelapse.mp4',         // Mora biti u public/video mapi
+        title: 'Timelapse Printanja', 
+        category: 'Video', 
+        type: 'video' 
+    }
+
 ];
 
 const App = () => {
