@@ -257,6 +257,12 @@ const PUBLIC_GALLERY: GalleryItem[] = [
         category: 'Galerija', 
         type: 'image' 
     },
+    { 
+        url: '/images/snjegovic2.jpg',  // Mora biti u public/images mapi
+        title: 'Snjegovic2', 
+        category: 'Galerija', 
+        type: 'image' 
+    },
 
     // --- NOVI VIDEO ---
     { 
